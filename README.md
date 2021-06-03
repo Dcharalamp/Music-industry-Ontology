@@ -5,4 +5,4 @@ Using OWL Protege tool, we created a music Ontology that covers basic concepts o
 
 Represantation includes creation of classes, properties and snapshots.
 
-SPARQL queries also used. 
+SPARQL queries also conducted. 
