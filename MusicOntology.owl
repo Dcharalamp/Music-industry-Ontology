@@ -1,0 +1,1639 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dimitris/ontologies/2020/0/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dimitris/ontologies/2020/0/untitled-ontology-8">
+    <Prefix name="" IRI="http://www.semanticweb.org/dimitris/ontologies/2020/0/untitled-ontology-8"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#song_writter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#V1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#instrumentation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#copies_sold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#W3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_used_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_instrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#singer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Penny"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#created_by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#L6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paliatzhs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#period_of_solo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_studio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crazy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#artist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#W4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#song"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#V2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profitable_action"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performed_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#philanthropist_action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#L7"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#skilled_elsewhere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#music_genre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#activity_period"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#secondary_type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SI1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_same_manager_as"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#musical_instrument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wrote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#unofficial_fanpage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#W1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#official_fanpage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MIG2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#L4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#G2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#category"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_lyrics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MI2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MI1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dream_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#top_at_charts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#W2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#place"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#copies_sold_digitally"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InstrName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#other_staff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#L5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MIG1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#no_of_tickets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#showman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solo_musician"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Papadopoulos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#con_days"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#event"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#L1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#It&apos;s_my_Life"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ar4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#L2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#instr_used"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#music_producer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#no_of_members"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#musical_instrument_guy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anastasia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bradiazei"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#text"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agriolouloudo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Todd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ar3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#L3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#foundation_helped"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#G1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manager/agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#releases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ar2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#W5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#manages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concerts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#platinum_release"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#L8"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#money_raised"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lyrics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Livin_on_a_Prayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#W6"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ar1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#epanektelesh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#no1_Guittarist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Howard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_same_writter_as"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#concertYear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#written_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#group/Band"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#top_hits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#platinum_disc"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#event"/>
+        <ObjectUnionOf>
+            <Class IRI="#concerts"/>
+            <Class IRI="#philanthropist_action"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#music_genre"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#is_used_by"/>
+            <Class IRI="#singer"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#music_producer"/>
+        <Class IRI="#artist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#musical_instrument_guy"/>
+        <Class IRI="#artist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#no1_Guittarist"/>
+        <DataHasValue>
+            <DataProperty IRI="#name"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Slash</Literal>
+        </DataHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#other_staff"/>
+        <Class IRI="#artist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#other_staff"/>
+        <ObjectComplementOf>
+            <ObjectUnionOf>
+                <Class IRI="#musical_instrument_guy"/>
+                <Class IRI="#singer"/>
+                <Class IRI="#manager/agent"/>
+            </ObjectUnionOf>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#platinum_disc"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#platinum_release"/>
+            <Class IRI="#releases"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#profitable_action"/>
+        <ObjectComplementOf>
+            <Class IRI="#philanthropist_action"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#showman"/>
+        <Class IRI="#artist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#showman"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#musical_instrument_guy"/>
+            <Class IRI="#singer"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#singer"/>
+        <Class IRI="#artist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solo_musician"/>
+        <Class IRI="#group/Band"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#song"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#performed_by"/>
+            <Class IRI="#artist"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#song_writter"/>
+        <Class IRI="#artist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#top_hits"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#top_at_charts"/>
+            <Class IRI="#song"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#group/Band"/>
+        <Class IRI="#artist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manager/agent"/>
+        <Class IRI="#artist"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manager/agent"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#manages"/>
+            <Class IRI="#artist"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manager/agent"/>
+        <ObjectMaxCardinality cardinality="3">
+            <ObjectProperty IRI="#manages"/>
+            <Class IRI="#artist"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#instrumentation"/>
+        <Class IRI="#musical_instrument"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#music_producer"/>
+        <Class IRI="#song_writter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#music_producer"/>
+        <Class IRI="#manager/agent"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#song"/>
+        <NamedIndividual IRI="#Agriolouloudo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song"/>
+        <NamedIndividual IRI="#Anastasia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#artist"/>
+        <NamedIndividual IRI="#Ar1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#artist"/>
+        <NamedIndividual IRI="#Ar2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#artist"/>
+        <NamedIndividual IRI="#Ar3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#artist"/>
+        <NamedIndividual IRI="#Ar4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#group/Band"/>
+        <NamedIndividual IRI="#B1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song"/>
+        <NamedIndividual IRI="#Bradiazei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#concerts"/>
+        <NamedIndividual IRI="#C1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#concerts"/>
+        <NamedIndividual IRI="#C2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#manager/agent"/>
+        <NamedIndividual IRI="#Cory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song"/>
+        <NamedIndividual IRI="#Crazy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song"/>
+        <NamedIndividual IRI="#Dream_on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#philanthropist_action"/>
+        <NamedIndividual IRI="#F1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#philanthropist_action"/>
+        <NamedIndividual IRI="#F2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#music_genre"/>
+        <NamedIndividual IRI="#G1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#music_genre"/>
+        <NamedIndividual IRI="#G2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#manager/agent"/>
+        <NamedIndividual IRI="#Howard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lyrics"/>
+        <NamedIndividual IRI="#L1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lyrics"/>
+        <NamedIndividual IRI="#L2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lyrics"/>
+        <NamedIndividual IRI="#L3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lyrics"/>
+        <NamedIndividual IRI="#L4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lyrics"/>
+        <NamedIndividual IRI="#L5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lyrics"/>
+        <NamedIndividual IRI="#L6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lyrics"/>
+        <NamedIndividual IRI="#L7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#lyrics"/>
+        <NamedIndividual IRI="#L8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song"/>
+        <NamedIndividual IRI="#Livin_on_a_Prayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#musical_instrument"/>
+        <NamedIndividual IRI="#MI1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#musical_instrument"/>
+        <NamedIndividual IRI="#MI2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#musical_instrument_guy"/>
+        <NamedIndividual IRI="#MIG1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#musical_instrument_guy"/>
+        <NamedIndividual IRI="#MIG2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#music_producer"/>
+        <NamedIndividual IRI="#MP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#music_producer"/>
+        <NamedIndividual IRI="#MP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song"/>
+        <NamedIndividual IRI="#Paliatzhs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#manager/agent"/>
+        <NamedIndividual IRI="#Papadopoulos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#manager/agent"/>
+        <NamedIndividual IRI="#Penny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#releases"/>
+        <NamedIndividual IRI="#R1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#releases"/>
+        <NamedIndividual IRI="#R2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#solo_musician"/>
+        <NamedIndividual IRI="#S1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#singer"/>
+        <NamedIndividual IRI="#SI1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#manager/agent"/>
+        <NamedIndividual IRI="#Todd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#instrumentation"/>
+        <NamedIndividual IRI="#V1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#instrumentation"/>
+        <NamedIndividual IRI="#V2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song_writter"/>
+        <NamedIndividual IRI="#W1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song_writter"/>
+        <NamedIndividual IRI="#W2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song_writter"/>
+        <NamedIndividual IRI="#W3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song_writter"/>
+        <NamedIndividual IRI="#W4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song_writter"/>
+        <NamedIndividual IRI="#W5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song_writter"/>
+        <NamedIndividual IRI="#W6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#song"/>
+        <NamedIndividual IRI="#It&apos;s_my_Life"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_lyrics"/>
+        <NamedIndividual IRI="#Agriolouloudo"/>
+        <NamedIndividual IRI="#L5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#written_by"/>
+        <NamedIndividual IRI="#Agriolouloudo"/>
+        <NamedIndividual IRI="#W3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_lyrics"/>
+        <NamedIndividual IRI="#Anastasia"/>
+        <NamedIndividual IRI="#L3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#written_by"/>
+        <NamedIndividual IRI="#Anastasia"/>
+        <NamedIndividual IRI="#W2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_manager"/>
+        <NamedIndividual IRI="#Ar1"/>
+        <NamedIndividual IRI="#Howard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performs"/>
+        <NamedIndividual IRI="#Ar1"/>
+        <NamedIndividual IRI="#Livin_on_a_Prayer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performs"/>
+        <NamedIndividual IRI="#Ar1"/>
+        <NamedIndividual IRI="#It&apos;s_my_Life"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_manager"/>
+        <NamedIndividual IRI="#Ar2"/>
+        <NamedIndividual IRI="#Todd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performs"/>
+        <NamedIndividual IRI="#Ar2"/>
+        <NamedIndividual IRI="#Anastasia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_manager"/>
+        <NamedIndividual IRI="#Ar3"/>
+        <NamedIndividual IRI="#Papadopoulos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_manager_as"/>
+        <NamedIndividual IRI="#Ar3"/>
+        <NamedIndividual IRI="#Ar4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performs"/>
+        <NamedIndividual IRI="#Ar3"/>
+        <NamedIndividual IRI="#Agriolouloudo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performs"/>
+        <NamedIndividual IRI="#Ar3"/>
+        <NamedIndividual IRI="#Bradiazei"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_manager"/>
+        <NamedIndividual IRI="#Ar4"/>
+        <NamedIndividual IRI="#Papadopoulos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performs"/>
+        <NamedIndividual IRI="#Ar4"/>
+        <NamedIndividual IRI="#Paliatzhs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_manager"/>
+        <NamedIndividual IRI="#B1"/>
+        <NamedIndividual IRI="#Cory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performs"/>
+        <NamedIndividual IRI="#B1"/>
+        <NamedIndividual IRI="#Crazy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performs"/>
+        <NamedIndividual IRI="#B1"/>
+        <NamedIndividual IRI="#Dream_on"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_lyrics"/>
+        <NamedIndividual IRI="#Bradiazei"/>
+        <NamedIndividual IRI="#L4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_writter_as"/>
+        <NamedIndividual IRI="#Bradiazei"/>
+        <NamedIndividual IRI="#Agriolouloudo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#written_by"/>
+        <NamedIndividual IRI="#Bradiazei"/>
+        <NamedIndividual IRI="#W3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_lyrics"/>
+        <NamedIndividual IRI="#Crazy"/>
+        <NamedIndividual IRI="#L7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#written_by"/>
+        <NamedIndividual IRI="#Crazy"/>
+        <NamedIndividual IRI="#W5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#epanektelesh"/>
+        <NamedIndividual IRI="#Dream_on"/>
+        <NamedIndividual IRI="#S1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_lyrics"/>
+        <NamedIndividual IRI="#Dream_on"/>
+        <NamedIndividual IRI="#L8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#written_by"/>
+        <NamedIndividual IRI="#Dream_on"/>
+        <NamedIndividual IRI="#W6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_lyrics"/>
+        <NamedIndividual IRI="#Livin_on_a_Prayer"/>
+        <NamedIndividual IRI="#L2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#written_by"/>
+        <NamedIndividual IRI="#Livin_on_a_Prayer"/>
+        <NamedIndividual IRI="#W1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#used_by"/>
+        <NamedIndividual IRI="#MI1"/>
+        <NamedIndividual IRI="#MIG1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#used_by"/>
+        <NamedIndividual IRI="#MI2"/>
+        <NamedIndividual IRI="#MIG2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_lyrics"/>
+        <NamedIndividual IRI="#Paliatzhs"/>
+        <NamedIndividual IRI="#L6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#written_by"/>
+        <NamedIndividual IRI="#Paliatzhs"/>
+        <NamedIndividual IRI="#W4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performer"/>
+        <NamedIndividual IRI="#R1"/>
+        <NamedIndividual IRI="#Ar2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#platinum_release"/>
+        <NamedIndividual IRI="#R1"/>
+        <NamedIndividual IRI="#R1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performer"/>
+        <NamedIndividual IRI="#R2"/>
+        <NamedIndividual IRI="#Ar3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_manager"/>
+        <NamedIndividual IRI="#S1"/>
+        <NamedIndividual IRI="#Penny"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#SI1"/>
+        <NamedIndividual IRI="#G1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#created_by"/>
+        <NamedIndividual IRI="#V1"/>
+        <NamedIndividual IRI="#MP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_instrument"/>
+        <NamedIndividual IRI="#V1"/>
+        <NamedIndividual IRI="#MI1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_instrument"/>
+        <NamedIndividual IRI="#V1"/>
+        <NamedIndividual IRI="#MI2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#created_by"/>
+        <NamedIndividual IRI="#V2"/>
+        <NamedIndividual IRI="#MP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses_instrument"/>
+        <NamedIndividual IRI="#V2"/>
+        <NamedIndividual IRI="#MI2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_lyrics"/>
+        <NamedIndividual IRI="#It&apos;s_my_Life"/>
+        <NamedIndividual IRI="#L1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_same_writter_as"/>
+        <NamedIndividual IRI="#It&apos;s_my_Life"/>
+        <NamedIndividual IRI="#Livin_on_a_Prayer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#top_at_charts"/>
+        <NamedIndividual IRI="#It&apos;s_my_Life"/>
+        <NamedIndividual IRI="#It&apos;s_my_Life"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#written_by"/>
+        <NamedIndividual IRI="#It&apos;s_my_Life"/>
+        <NamedIndividual IRI="#W1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Agriolouloudo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">211</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Anastasia"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">202</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activity_period"/>
+        <NamedIndividual IRI="#Ar1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ar1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bon Jovi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activity_period"/>
+        <NamedIndividual IRI="#Ar2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ar2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Slash</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activity_period"/>
+        <NamedIndividual IRI="#Ar3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ar3"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Kazantzidis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activity_period"/>
+        <NamedIndividual IRI="#Ar4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">51</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Ar4"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dionisiou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activity_period"/>
+        <NamedIndividual IRI="#B1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#B1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Aerosmith</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#no_of_members"/>
+        <NamedIndividual IRI="#B1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Bradiazei"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">212</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#concertYear"/>
+        <NamedIndividual IRI="#C1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1981</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#no_of_tickets"/>
+        <NamedIndividual IRI="#C1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#place"/>
+        <NamedIndividual IRI="#C1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Boston</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#concertYear"/>
+        <NamedIndividual IRI="#C2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#no_of_tickets"/>
+        <NamedIndividual IRI="#C2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">154000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#place"/>
+        <NamedIndividual IRI="#C2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Washington</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Cory"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Cory</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Crazy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">301</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Dream_on"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">251</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#foundation_helped"/>
+        <NamedIndividual IRI="#F1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#money_raised"/>
+        <NamedIndividual IRI="#F1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">125002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#foundation_helped"/>
+        <NamedIndividual IRI="#F2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">WWF</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#money_raised"/>
+        <NamedIndividual IRI="#F2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">140000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#G1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">reggae</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#secondary_type"/>
+        <NamedIndividual IRI="#G2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">rempetiko</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#G2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">laiko</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activity_period"/>
+        <NamedIndividual IRI="#Howard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Howard"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Howard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#text"/>
+        <NamedIndividual IRI="#L1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Its my life and its now or never</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#text"/>
+        <NamedIndividual IRI="#L2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">ohoh livin on a prayer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#text"/>
+        <NamedIndividual IRI="#L3"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Anastaaasia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#text"/>
+        <NamedIndividual IRI="#L4"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">bradiazei pali shmera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#text"/>
+        <NamedIndividual IRI="#L5"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">ki an xionizei ki an brexei</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#text"/>
+        <NamedIndividual IRI="#L6"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">pare oti 8eleis paliatzh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#text"/>
+        <NamedIndividual IRI="#L7"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">crazy crazy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#text"/>
+        <NamedIndividual IRI="#L8"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">everytime that i look in the mirror</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Livin_on_a_Prayer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">192</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#InstrName"/>
+        <NamedIndividual IRI="#MI1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">drums</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#category"/>
+        <NamedIndividual IRI="#MI1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">krousto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#InstrName"/>
+        <NamedIndividual IRI="#MI2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Electric Guitar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#category"/>
+        <NamedIndividual IRI="#MI2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">egxrordo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MIG1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Buddy Rich</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#MIG2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MIG2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Slash</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_studio"/>
+        <NamedIndividual IRI="#MP1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Alpha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MP1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">DJ X</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_studio"/>
+        <NamedIndividual IRI="#MP2"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bravo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Paliatzhs"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#copies_sold"/>
+        <NamedIndividual IRI="#R1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1221120000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#copies_sold_digitally"/>
+        <NamedIndividual IRI="#R1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23552300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#R1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1981</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#copies_sold"/>
+        <NamedIndividual IRI="#R2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1221120</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#R2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1981</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#activity_period"/>
+        <NamedIndividual IRI="#S1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#S1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Steven Tyler</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#period_of_solo"/>
+        <NamedIndividual IRI="#S1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#SI1"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Bob Marley</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#It&apos;s_my_Life"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">182</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#epanektelesh"/>
+        <ObjectProperty IRI="#performed_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#skilled_elsewhere"/>
+        <ObjectProperty IRI="#instr_used"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#unofficial_fanpage"/>
+        <ObjectProperty IRI="#official_fanpage"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_manager"/>
+        <ObjectProperty IRI="#manages"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#instr_used"/>
+        <ObjectProperty IRI="#used_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_used_by"/>
+        <ObjectProperty IRI="#uses"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#performed_by"/>
+        <ObjectProperty IRI="#performs"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#written_by"/>
+        <ObjectProperty IRI="#wrote"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_manager"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#has_lyrics"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#official_fanpage"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#has_same_manager_as"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#has_same_writter_as"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#has_same_manager_as"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#has_same_writter_as"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#created_by"/>
+        <Class IRI="#instrumentation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#epanektelesh"/>
+        <Class IRI="#song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_lyrics"/>
+        <Class IRI="#song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_manager"/>
+        <Class IRI="#artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_same_manager_as"/>
+        <Class IRI="#artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_same_writter_as"/>
+        <Class IRI="#song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#instr_used"/>
+        <Class IRI="#musical_instrument_guy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_used_by"/>
+        <Class IRI="#music_genre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#manages"/>
+        <Class IRI="#manager/agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#official_fanpage"/>
+        <Class IRI="#artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performed_by"/>
+        <Class IRI="#song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performer"/>
+        <Class IRI="#releases"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performs"/>
+        <Class IRI="#artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#platinum_release"/>
+        <Class IRI="#releases"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#skilled_elsewhere"/>
+        <Class IRI="#musical_instrument_guy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#top_at_charts"/>
+        <Class IRI="#song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#unofficial_fanpage"/>
+        <Class IRI="#artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_by"/>
+        <Class IRI="#musical_instrument"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#singer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_instrument"/>
+        <Class IRI="#instrumentation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#written_by"/>
+        <Class IRI="#song"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wrote"/>
+        <Class IRI="#song_writter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#created_by"/>
+        <Class IRI="#music_producer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#epanektelesh"/>
+        <Class IRI="#artist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_lyrics"/>
+        <Class IRI="#lyrics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_manager"/>
+        <Class IRI="#manager/agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_same_manager_as"/>
+        <Class IRI="#artist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_same_writter_as"/>
+        <Class IRI="#song"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#instr_used"/>
+        <Class IRI="#musical_instrument"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_used_by"/>
+        <Class IRI="#singer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#manages"/>
+        <Class IRI="#artist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performed_by"/>
+        <Class IRI="#artist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performer"/>
+        <Class IRI="#artist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performs"/>
+        <Class IRI="#song"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#platinum_release"/>
+        <Class IRI="#releases"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#skilled_elsewhere"/>
+        <Class IRI="#musical_instrument"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#top_at_charts"/>
+        <Class IRI="#song"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_by"/>
+        <Class IRI="#musical_instrument_guy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#music_genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses_instrument"/>
+        <Class IRI="#musical_instrument"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#written_by"/>
+        <Class IRI="#song_writter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wrote"/>
+        <Class IRI="#song"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#InstrName"/>
+        <DataProperty IRI="#has_studio"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#copies_sold_digitally"/>
+        <DataProperty IRI="#copies_sold"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#secondary_type"/>
+        <DataProperty IRI="#type"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_studio"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#InstrName"/>
+        <Class IRI="#musical_instrument"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#activity_period"/>
+        <Class IRI="#artist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#artist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#category"/>
+        <Class IRI="#musical_instrument"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#con_days"/>
+        <Class IRI="#top_hits"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#concertYear"/>
+        <Class IRI="#concerts"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#copies_sold"/>
+        <Class IRI="#releases"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#copies_sold_digitally"/>
+        <Class IRI="#releases"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duration"/>
+        <Class IRI="#song"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#foundation_helped"/>
+        <Class IRI="#philanthropist_action"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_studio"/>
+        <Class IRI="#music_producer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#money_raised"/>
+        <Class IRI="#philanthropist_action"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#artist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#no_of_members"/>
+        <Class IRI="#group/Band"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#no_of_tickets"/>
+        <Class IRI="#concerts"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#period_of_solo"/>
+        <Class IRI="#solo_musician"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#place"/>
+        <Class IRI="#concerts"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#secondary_type"/>
+        <Class IRI="#music_genre"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#text"/>
+        <Class IRI="#lyrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#music_genre"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#year"/>
+        <Class IRI="#releases"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#InstrName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#activity_period"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#category"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#con_days"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#concertYear"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#copies_sold"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#copies_sold_digitally"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duration"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#foundation_helped"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_studio"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#money_raised"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#no_of_members"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#no_of_tickets"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#period_of_solo"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#place"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#secondary_type"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#text"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#year"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
